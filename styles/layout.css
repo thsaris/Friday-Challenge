@@ -33,6 +33,7 @@ body {
     transition: all 0.5s;
 }
 
+
 .sidebar:hover {
     width: 206px;
 }
@@ -42,9 +43,15 @@ header > .sidebar:hover .bar-text {
     color: var(--secondary-color);
 }
 
+header > .sidebar:hover .home-text {
+    display: block;
+    color: var(--third-color);
+}
+
 header > .sidebar:hover .bar-text:hover {
     text-decoration: underline;
 }
+
 
 .logo-line {
     width: 62.24px;
