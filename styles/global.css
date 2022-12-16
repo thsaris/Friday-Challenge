@@ -1,0 +1,17 @@
+:root {
+    --main-color: #EBEEF5;
+    --secondary-color: #C4C4C4;
+    --third-color: #02577A;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--main-color);
+}
